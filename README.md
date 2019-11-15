@@ -4,6 +4,7 @@ a simple test to create a docker image for the postgraduate
 # Comands to create and start the image.
 
 docker build -t webserver-image:v1 .
+</br>
 docker run -d -p 80:80 webserver-image:v1
 
 # Testing
